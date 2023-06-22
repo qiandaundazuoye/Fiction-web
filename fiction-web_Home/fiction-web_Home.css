@@ -1,0 +1,47 @@
+
+.li {
+	list-style: none;
+}
+#wrapper{
+	width:100%;
+	color:black;
+	float:left;
+	background-color: blanchedalmond;
+}
+.header_logo{
+	text-align: center;
+	font-size: 18px;
+	color:chocolate;
+}
+.nav{
+  display: flex;
+      justify-content: center;
+      align-items: center;
+    width:100%;
+    float: left;
+    background-color: rgb(212, 164, 93);
+    height: 55px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+.nav li {
+	float: left;
+    width:25%;
+  list-style-type: none;
+}
+.nav li a {
+	display: block;
+	font-size: 22px;
+	color: #ffffff;
+  font-weight: bold;
+	text-decoration: none;
+  align-items: center;
+	text-align: center;
+  font-family: "黑体", sans-serif;
+}
+.nav li a:hover {
+	color:yellow;
+	text-decoration:underline;
+}
+
