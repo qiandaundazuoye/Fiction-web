@@ -1,47 +1,277 @@
-
 .li {
 	list-style: none;
 }
-#wrapper{
-	width:100%;
-	color:black;
-	float:left;
-	background-color: blanchedalmond;
+
+html {
+	background-color: rgba(255, 235, 205, 0.708);
 }
-.header_logo{
+
+#wrapper {
+	width: 100%;
+	color: black;
+	float: left;
+}
+
+.header_logo {
 	text-align: center;
 	font-size: 50px;
-	color:chocolate;
+	color: chocolate;
 }
-.nav{
-  display: flex;
-      justify-content: center;
-      align-items: center;
-    width:100%;
-    float: left;
-    background-color: rgb(212, 164, 93);
-    height: 55px;
-  position: sticky;
-  top: 0px;
-  left: 0px;
+
+body {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 1040px;
+	position: sticky;
+	left: 0px;
 }
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.nav {
+	position: relative;
+	top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	float: left;
+	background-color: rgb(212, 164, 93);
+	height: 55px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
 .nav li {
 	float: left;
-    width:25%;
-  list-style-type: none;
+	width: 25%;
+	list-style-type: none;
 }
+
 .nav li a {
 	display: block;
 	font-size: 22px;
 	color: #ffffff;
-  font-weight: bold;
+	font-weight: bold;
 	text-decoration: none;
-  align-items: center;
+	align-items: center;
 	text-align: center;
-  font-family: "黑体", sans-serif;
-}
-.nav li a:hover {
-	color:yellow;
-	text-decoration:underline;
+	font-family: "黑体", sans-serif;
 }
 
+.nav li a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.hotcontent {
+	display: block;
+}
+
+.l {
+	display: block;
+	float: left;
+	block-size: auto;
+	width: 705px;
+	height: 350px;
+	border-color: rgba(0, 106, 255, 0.265);
+	border-width: 2px;
+	padding: 10px;
+	border-style: solid;
+	position: relative;
+	top: 10px;
+	background-color: rgba(216, 253, 251, 0.767);
+}
+
+.r {
+	display: block;
+	float: right;
+	width: 275px;
+	height: 350px;
+	border-color: rgba(0, 106, 255, 0.265);
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding: 10px;
+	top: 10px;
+	background-color: rgba(216, 253, 251, 0.767);
+	font-size: 18px;
+}
+
+.r h2 {
+	text-align: center;
+	position: relative;
+	top: -15px;
+}
+
+.r ul {
+	font-size: 17px;
+	text-align: left;
+	position: relative;
+	top: -15px;
+	left: -15px;
+}
+
+.item {
+	display: flex;
+	float: left;
+	align-items: flex-start;
+	width: 50%;
+	height: 50%;
+}
+
+.item dl {
+	font-size: 7px;
+	width: 24em;
+	float: left;
+	position: relative;
+	left: 5%;
+}
+
+.item a {
+	font-size: 8px;
+	width: auto;
+	text-decoration: none;
+}
+
+.item span {
+	float: right;
+	color: rgba(0, 0, 0, 0.498);
+}
+
+.novelslist {
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* 将元素在主轴上均匀分布 */
+	border-color: rgba(0, 106, 255, 0.265);
+	border-width: 2px;
+	padding: 10px;
+	border-style: solid;
+	position: relative;
+	top: 20px;
+	background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 33.33%;
+}
+
+.top {
+	display: flex;
+}
+
+.top .image {
+	margin-right: 10px;
+	/* 添加右侧间距 */
+}
+
+.top dl {
+	font-size: 7px;
+	width: 29em;
+	float: left;
+	position: relative;
+}
+
+.top dl a {
+	text-decoration: none;
+}
+
+.content {
+	font-size: 15px;
+}
+
+.content ul {
+	font-size: 16px;
+	text-align: left;
+	position: relative;
+	top: -10px;
+	left: -20px;
+}
+
+.content ul a {
+	text-decoration: none;
+}
+
+.newscontent {
+	display: block;
+}
+
+.ll {
+	display: block;
+	float: left;
+	block-size: auto;
+	width: 705px;
+	height: 350px;
+	border-color: rgba(0, 106, 255, 0.265);
+	border-width: 2px;
+	padding: 10px;
+	border-style: solid;
+	position: relative;
+	top: 10px;
+	background-color: rgba(216, 253, 251, 0.767);
+}
+
+
+
+.rr {
+	display: block;
+	float: right;
+	width: 275px;
+	height: 350px;
+	border-color: rgba(0, 106, 255, 0.265);
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding: 10px;
+	top: 10px;
+	background-color: rgba(216, 253, 251, 0.767);
+	font-size: 18px;
+}
+
+.ll ul {
+	font-size: 16px;
+}
+
+.ll h2{
+	font-size: 20px;
+}
+
+.rr ul {
+	font-size: 17px;
+	text-align: left;
+	position: relative;
+	top: -15px;
+	left: -15px;
+}
+.rr h2{
+	font-size: 20px;
+}
+
+.s2 a{
+	text-decoration: none;
+}
+
+.s3 a{
+	text-decoration: none;}
+
+hr {
+	border: none;
+	/* 移除默认边框 */
+	height: 1px;
+	/* 设置分割线高度 */
+	background-color: #ccc;
+	/* 设置分割线颜色 */
+	margin: 2px 2px;
+	/* 设置分割线上下间距 */
+}

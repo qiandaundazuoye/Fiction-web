@@ -44,3 +44,24 @@
 	color:yellow;
 	text-decoration:underline;
 }
+.hotcontent{
+	background-color: rgb(236, 192, 139);
+	display:flex;
+	flex-direction: column;
+}
+.item{
+	display:flex;
+	flex-direction: row;
+	width: 95%;
+	border-color: aqua;
+	border-style: solid;
+	border-width: 1pm;
+}
+.image{
+	display:block;
+	width:20%;
+}
+.item dl{
+	display:block;
+	width:75%;
+}
