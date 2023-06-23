@@ -81,6 +81,12 @@ body {
 	margin-bottom: 10px;
 }
 
+.item a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+
 .item dl {
 	font-size: 19px;
 	width: 24em;

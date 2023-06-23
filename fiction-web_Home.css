@@ -140,6 +140,17 @@ body {
 	color: rgba(0, 0, 0, 0.498);
 }
 
+.item a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.r a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+
 .novelslist {
 	height: 300px;
 	display: flex;
@@ -153,6 +164,12 @@ body {
 	background-color: rgba(216, 253, 251, 0.767);
 	margin-bottom: 10px;
 }
+
+.novelslist a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
 
 .content {
 	display: flex;
@@ -199,6 +216,12 @@ body {
 .newscontent {
 	display: block;
 }
+
+.newscontent a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
 
 .ll {
 	display: block;
