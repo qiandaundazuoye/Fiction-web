@@ -1,0 +1,152 @@
+.li {
+    list-style: none;
+}
+
+html {
+    background-color: rgba(255, 235, 205, 0.708);
+}
+
+#wrapper {
+    width: 100%;
+    color: black;
+    float: left;
+    background-color: blanchedalmond;
+}
+
+.header_logo {
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1040px;
+    position: sticky;
+    left: 0px;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    background-color: rgb(212, 164, 93);
+    height: 55px;
+}
+
+.nav li {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+.nav li a {
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "黑体", sans-serif;
+}
+
+.nav li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.Readpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    height: 55px;
+}
+
+.Readpage a {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Readpage a {
+    display: block;
+    font-size: 22px;
+    color: #095800;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "黑体", sans-serif;
+}
+
+.Readpage a:hover {
+    color:rgb(0, 34, 255);
+    text-decoration: underline;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    height: 55px;
+}
+
+.last a {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+.last a {
+    display: block;
+    font-size: 22px;
+    color: #095800;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "黑体", sans-serif;
+}
+
+.last a:hover {
+    color: rgb(0, 34, 255);
+    text-decoration: underline;
+}
+
+.link{
+    width: 99.6%;
+    height: auto;
+    float: left;
+    border-color: rgba(0, 106, 255, 0.265);
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.link span{
+    margin-left: 10px;
+    margin-top: 15px;
+}
