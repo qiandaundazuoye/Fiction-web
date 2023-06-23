@@ -42,9 +42,7 @@ body {
 	float: left;
 	background-color: rgb(212, 164, 93);
 	height: 55px;
-	position: relative;
-	top: 0px;
-	left: 0px;
+	margin-bottom: 20px;
 }
 
 .nav li {
@@ -83,9 +81,8 @@ body {
 	border-width: 2px;
 	padding: 10px;
 	border-style: solid;
-	position: relative;
-	top: 10px;
 	background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
 }
 
 .r {
@@ -96,11 +93,10 @@ body {
 	border-color: rgba(0, 106, 255, 0.265);
 	border-width: 2px;
 	border-style: solid;
-	position: relative;
 	padding: 10px;
-	top: 10px;
 	background-color: rgba(216, 253, 251, 0.767);
 	font-size: 18px;
+	margin-bottom: 10px;
 }
 
 .r h2 {
@@ -154,8 +150,6 @@ body {
 	border-width: 2px;
 	padding: 10px;
 	border-style: solid;
-	position: relative;
-	top: 20px;
 	background-color: rgba(216, 253, 251, 0.767);
 	margin-bottom: 10px;
 }
@@ -180,7 +174,6 @@ body {
 	font-size: 7px;
 	width: 29em;
 	float: left;
-	position: relative;
 }
 
 .top dl a {
@@ -217,8 +210,6 @@ body {
 	border-width: 2px;
 	padding: 10px;
 	border-style: solid;
-	position: relative;
-	top: 10px;
 	background-color: rgba(216, 253, 251, 0.767);
 }
 
@@ -232,9 +223,7 @@ body {
 	border-color: rgba(0, 106, 255, 0.265);
 	border-width: 2px;
 	border-style: solid;
-	position: relative;
 	padding: 10px;
-	top: 10px;
 	background-color: rgba(216, 253, 251, 0.767);
 	font-size: 18px;
 }

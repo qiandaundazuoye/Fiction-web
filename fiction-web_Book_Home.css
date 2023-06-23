@@ -1,0 +1,151 @@
+.li {
+    list-style: none;
+}
+
+html {
+    background-color: rgba(255, 235, 205, 0.708);
+}
+
+#wrapper {
+    width: 100%;
+    color: black;
+    float: left;
+}
+
+.header_logo {
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1040px;
+    position: sticky;
+    left: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    background-color: rgb(212, 164, 93);
+    height: 55px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nav li {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+.nav li a {
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "黑体", sans-serif;
+}
+
+.nav li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.book_info {
+    display: block;
+    float: left;
+    border-color: rgba(0, 106, 255, 0.265);
+    border-width: 2px;
+    padding: 10px;
+    border-style: solid;
+    position: relative;
+    background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
+}
+
+.image {
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.dd_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dd_box a {
+    margin-right: auto;
+}
+
+.dd_box span {
+    float: right;
+}
+
+.book_item {
+    float: right;
+    width: 70%;
+}
+
+.book_last{
+    width: 99.6%;
+    height: auto;
+    float: left;
+    border-color: rgba(0, 106, 255, 0.265);
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
+}
+
+.book_last a{
+    text-decoration: none;
+    font-size: small;
+    position: relative;
+    left:15px;
+}
+
+.link{
+    width: 99.6%;
+    height: auto;
+    float: left;
+    border-color: rgba(0, 106, 255, 0.265);
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    background-color: rgba(216, 253, 251, 0.767);
+	margin-bottom: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.link span{
+    margin-left: 10px;
+    margin-top: 15px;
+}
